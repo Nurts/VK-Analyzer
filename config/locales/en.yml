@@ -9,13 +9,10 @@ en:
     help:
       content: |
         Available cmds:
-        /memo %text% - Saves text to session.
-        /remind_me - Replies with text from session.
-        /keyboard - Simple keyboard.
-        /inline_keyboard - Inline keyboard example.
-        Bot supports inline queries. Enable it in @BotFather.
-        /last_chosen_inline_result - Your last chosen inline result \
-        (Enable feedback with /setinlinefeedback).
+        /add_hobby - to add hobby to your profile
+        /find_match - find user whos interests match with yours
+        /remove_hobby - to remove hobby from your profile
+        /my_hobbies - to see your interests
     inline_keyboard:
       alert: Answer with alert
       no_alert: Without alert
@@ -42,4 +39,5 @@ en:
     remind_me:
       nothing: Nothing to remind
     start:
-      content: Hi there!
+      welcome_back: Oh, Welcome Back!
+      content: Hi there!, /help for instructions
